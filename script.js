@@ -26,7 +26,7 @@ let clear = true
 
 $(document).ready(function(){
     $("button").click(function(event){
-        let operandOne = ""
+        //let operandOne = ""
         if (this.id === "reset"){
             screenDisplay.innerText = ""
         }else if (this.id !== "=" && clear === true) {
